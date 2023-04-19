@@ -13,7 +13,7 @@ attach(data)
 
 #a) Using both age variables, combine them into one variable for age in months. Create a scatter plot of the vocabulary size vs. age in months (your new variable). Based solely on the scatter plot, does a linear model seem appropriate?
 
-AGE = (12*YEARS) + MONTHS
+AGE = (12*YEARS) 
 newvocab = cbind(data,AGE)
 plot(newvocab$AGE,newvocab$VOC_SIZE)
 
